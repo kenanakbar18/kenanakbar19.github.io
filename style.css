@@ -1,0 +1,377 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    font-family: sans-serif; 
+}
+body
+{
+    height: 100vh; 
+    overflow: auto;
+}
+
+header #container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(10, 10, 41);
+    height: 100px;
+    
+}
+header #container #logo h1
+{
+    color: white;
+    cursor: pointer;
+    
+}
+header #container nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header #container ul li
+{
+    list-style: none;
+}
+ header #container ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+} 
+header #container ul li a:hover
+{  
+    border-bottom: 1px solid white;
+   
+} 
+header #container button
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+header #container button:hover
+{   
+    color: white;
+    background-color: rgb(10, 10, 41);
+    border: 1px solid #ccc;
+}
+
+
+#section_own
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#section_own #container
+{
+    width: 700px;
+    max-width: 1170px;
+}
+#section_own #container_top
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#section_own #container_bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}   
+#section_own #container_bottom #box
+{
+    width: 300px;
+    height: 125px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    display: flex;
+}
+#section_own #container_bottom #box:hover
+{
+    color: white;
+    background-color: rgb(10, 10, 41);
+    transition: ease 0.5s;
+}
+#section_own #container_bottom #box h3
+{
+    padding: 35px 0px 0px 30px;
+}
+#section_own #container_bottom #box i
+{
+    display: none;
+}
+#section_own #container_bottom #box:hover i
+{
+    display: block;
+    padding: 40px 0px 0px 60px;
+    font-size: 30px;
+}
+#section_two #container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+#section_two #container #box
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 400px;
+}
+#section_two #container #box button
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(0, 206, 206);
+    border: none;
+    color: white;
+}
+#section_two #container #box button:hover
+{
+    background-color:rgb(10, 10, 41);
+    transition: ease 0.5s;
+}
+
+
+#section_three
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#section_three #container
+{
+    width: 1000px;
+}
+#section_three #container_top
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#section_three #container_bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 50px;
+}   
+#section_three #container_bottom #box
+{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+#section_three #container_bottom #box #box_icon
+{
+    font-size: 40px;
+}
+#section_three #container_bottom #box h4 ,p 
+{
+    padding-top: 25px;
+    line-height: 30px;
+}
+
+
+#section_four
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#section_four #container
+{
+    width: 100rem;
+    height: 200px auto;
+    background-color: rgb(10, 10, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: column;
+    gap: 13%;
+}
+#section_four #container #box
+{
+    height: 125px auto;
+    border-right: 1px solid white
+    
+}
+#section_four #container #box p
+{
+    font-size: 30px;
+    color:white;
+    padding-right: 30px;
+    line-height: 60px;
+
+}
+
+
+#section_five
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#section_five #container
+{
+    margin-top: 300px;
+    width: 450px;
+  
+}
+
+#section_five #container #box_1
+{
+    height: 550px auto;
+    width:  470px auto;
+    background-color: rgb(224, 250, 242);
+    text-align: left;
+    padding: 30px 40px 30px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#section_five #container #box_2 
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#section_five #container #box_3
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#section_six
+{
+    margin-top: 100px;
+    background-color: rgb(224, 250, 242);
+}
+#section_six #container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+#section_six #box 
+{
+    padding: 70px 0px 50px 100px;
+}
+#section_six #container #box_0 input
+{
+    height: 40px;
+    width: 260px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin: 0px 0px 50px 0px;
+}
+#section_six #container #box_1 button
+{
+    height: 40px;
+    width: 260px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(10, 10, 41);
+    color: white;
+    border: none;
+    margin: 0px 0px 50px 0px;
+
+}
+
+
+#section_seven
+{
+    margin-top: 150px;
+}
+#section_seven #container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 250px;
+    
+}
+#section_seven #container #box ul li
+{
+    list-style: none;
+    line-height: 2rem;
+}
+#section_seven #container #box ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1000px){
+
+header #container #logo h1
+{
+   display:none; 
+}
+header #container nav ul
+{
+    display: none;
+}
+header #container button
+{
+   display: none;
+}
+header #container i
+{
+    display: block;
+    font-size: 40px;
+}
+#section_four #container
+{ 
+    display: block;
+    text-align: center;
+}
+#section_four #container #box p
+{
+    
+    border-bottom: 1px solid white;
+
+}
+}
